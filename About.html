@@ -7,26 +7,35 @@
     <title>Document</title>
     <!-- STYLE -->
     <style>
-
-      /* topbar */
+* body{
+  margin: 0;
+}
+/* top bar CSS */
 .topbar {
-  background-color:rgb(104, 141, 114) ;
+  background-color:rgba(8, 46, 123, 0.775) ;
 
 }
 .topbar1{
 float: left;
-width: 33.3%;
-padding: 0px;
-text-align: center;
-color: white;
+  width: 65%;
+  padding: 0px;
+ text-align: center;
+ color: white;
+}
+.topbar2{
+float: right;
+  width: 35%;
+  padding: 0px;
+ text-align: center;
+ color: white;
 }
 
 .topbar::after {
-content: "";
-display: table;
-clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-/* End of top bar */
+/* End of top bar CSS */
 
 
 /* Start of the navigation  */
@@ -40,10 +49,11 @@ li {
     }
     /* logo css */
     .logo {
-     /* additionally, equal width */
+       /* additionally, equal width */
       padding: 1em;
       margin: 1px;
       float: left;
+      width: 40%;
     }  
 
     /* start of the navigation menu */
@@ -92,6 +102,33 @@ li a:hover {
     }  
 
 /* End of the navigation CSS */
+
+    /*rows and columns for Mission, Vision and Core values */
+    .row {
+      display: flex; /*  */
+    }
+    .mission {
+      flex: 1; /* additionally, equal width */
+      padding: 1em;
+      border: solid;
+      margin: 10px;
+      background-color: #beeab0;
+    }   
+    .vision {
+      flex: 1; /* additionally, equal width */
+      padding: 1em;
+      border: solid;
+      margin: 10px;
+      background-color:beige;
+    }   
+    .corevalues {
+      flex: 1; /* additionally, equal width */
+      padding: 1em;
+      border: solid;
+      margin: 10px;
+      background-color: #beeab0;
+    } 
+/* End of the rows and columns for Mission, Vision and Core values */
      
      
     
@@ -99,7 +136,7 @@ li a:hover {
 .breadcrumbnav {
   list-style: none;
   text-align: center;
-  background-image: url(images/pictures/smartagric.jpg) ;
+  background-image: url(images/pictures/About\ us.jpg) ;
   height: 50vh
 }
 .breadcrumbnav li {
@@ -252,22 +289,27 @@ li a:hover {
   <!-- Start of top bar -->
   <div class="topbar">
     <div class="topbar1">
-      <img src="telephone.png" alt="#" height="20" width="20"> (+46) 771296207 </a>
+      <img src="images/logo/telephone.png" alt="#" height="20" width="20"> (+46) 771296207 </a>&nbsp;&nbsp;&nbsp;
+      <img src="images/socials/email.png" alt="#" width="20" height="20"> contact@emrichpropertyconsults.com</a>&nbsp;&nbsp;&nbsp;
+      <img src="images/logo/address.png" alt="#" width="20" height="20"> P.O.BOX 165, Gulu, Uganda </a>
     </div>
-    <div class="topbar1">
-      <img src="address.png" alt="#" width="20" height="20"> P.O.BOX 165, Malmo, Sweden </a>
-    </div>
-    <div class="topbar1">
-      <img src="email.png" alt="#" width="20" height="20"> contact@greenagribusiness.com</a>
-    </div>
-    </div> 
-    <!-- End of top bar -->
    
-    <!-- logo and navigation bar-->
+    <div class="topbar2">
+      <img src="images/socials/Facebook fit.jpg" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/socials/linkedIn.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/socials/Instagram.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/socials/youtube.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/socials/twitter.png" alt="facebook" width="35" height="25">
+    </div>
+    </div>
+     <!--End of top bar code  -->
+     
+
+  <!-- logo and navigation bar-->
     <div class="row">
       <!-- colum 1 -->
-        <div class="logo"> <img src="Logo1.jpg" alt="Green Agro Logo" width="150" height="60"></div>
-        <!-- column 2 -->
+        <div class="logo"> <img src="images/logo/logo.jpg" alt="Green Agro Logo" width="100" height="80"></div>
+<!-- column 2 -->
         <div class="navigation"> 
           <ul> 
             <!-- list item 1 -->
@@ -287,22 +329,9 @@ li a:hover {
             <!-- list item5 -->
              <li>
               <a href="contactus.html" style="text-decoration: none;">CONTACT US</a>
-            </li>
-            <li>
-              <a href="products.html" style="text-decoration: none;">PRODUCTS</a>
-            </li>   
+            </li>      
           </ul>
           </div>
-          <!-- socialmedia  -->
-        <div>
-          <div class="socialmedia">
-            <img src="Facebook fit.jpg" alt="facebook" width="25" height="25">
-            <img src="linkedIn.png" alt="facebook" width="25" height="25">
-            <img src="Instagram.png" alt="facebook" width="25" height="25">
-            <img src="youtube.png" alt="facebook" width="25" height="25">
-            <img src="twitter.png" alt="facebook" width="25" height="25">
-          </div>
-
         </div>
     </div>
 
@@ -324,8 +353,9 @@ li a:hover {
     <!-- new code input -->
  <div class="row">
   <div class="rowmission">
-    <h2 style="color: #1e5e16;">About Us</h2>
-    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger;">Smart Agricultural Solutions</h1>
+    <h2 style="color: #1e5e16;">OUR STORY</h2>
+    <br>
+    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger;">Emrich Property Consults</h1>
 <p style="font-size: large;"> The company was founded in 2022. It is well established company that specialises in providing smart and sustainable agricultural solutions. The company headoffice is located in Stockholm Sweden. Our company is built on trust, competence, trust and above all innovation. Our services ranges from; Trainings on the use of Agricultural machines, smart agriculture, sustainable farming, search for markets for agricultural products, Fertilizers, Trainings on the use of agricultural machineries <br> We work close by agriculturists, makers, producers, retailers, governments, and different associations to satisfy our motivation to support the world in a protected, dependable and practical way. Together, we make efficiencies, create developments, and help networks flourish.<br> As qualities and practices around sustenance have changed, so have we. Today, we’re trend-setters remarkably situated to reshape feeding our reality.Today, we not just have the quickest developing arrangement of protein-driven brands, we offer more prominent straight forwardness into all that we do. We conjointly promote property farming practices that square measure economically viable, environmentally friendly, strengthen our communities and shield the health of gift and future generations.
   <br> With our experience in developing growth methods, property agribusinesses, operational potency, and integration of stakeholders in price chains we’ve created custom-made solutions to bridge the gap between real challenges across the provision chain.</p>
 </div>
@@ -348,6 +378,46 @@ li a:hover {
 
  </div>
     </div>
+
+<br>
+<br>
+<!-- management of company -->
+<h3 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;"> 
+    MANAGEMENT </h3>
+    <div class="row">
+        <!-- mission row start-->
+        <div class="mission">
+          <div>
+            <img src="images/directors/Ojokmichaelocan.jpg" alt="director1" height="350px" width="350px" >
+          </div>
+          <div style="position: relative; top: -40px;text-align: center">
+            To be the number one solution for all your consultancy needs </div>
+          </div>
+          <!-- mission row end -->
+  
+         <!-- vision row start -->
+        <div class="vision">
+          <div style="text-align: center;">
+            <img src="images/directors/Ojokmichaelocan.jpg" alt="director1" height="350px" width="350px" >
+            <br>
+            <br>
+            o improve rural livelihoods and create value by providing sustainable food systems in Europe and Africa 
+              <br> Working to offer solutions at the intersection of farming and climate
+            </div>
+            <div>
+              T </div></div>
+            <!-- vision row end -->
+  
+        <!-- core values row -->
+        <div class="corevalues">
+          <div style="position: relative; top: -40px;">
+            <h2 style="padding-top: 5px;">CORE VALUES<hr></h2></div><div style="position: relative; top: -40px;text-align: center"> Integrity 
+              <br> Commitment <br> Professional, effective and informed by Science</div></div>
+        <hr>
+      </div>
+      <!-- button -->
+  <div>
+
 <br>
 <!-- footer -->
 <footer>
