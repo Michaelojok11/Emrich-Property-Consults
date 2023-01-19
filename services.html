@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- STYLE -->
     <style>
+* body{
+  margin: 0;
+}
 /* top bar CSS */
 .topbar {
-  background-color:rgb(104, 141, 114) ;
+  background-color:rgba(8, 46, 123, 0.775) ;
 
 }
 .topbar1{
 float: left;
-  width: 33.3%;
+  width: 65%;
+  padding: 0px;
+ text-align: center;
+ color: white;
+}
+.topbar2{
+float: right;
+  width: 35%;
   padding: 0px;
  text-align: center;
  color: white;
@@ -20,6 +35,11 @@ float: left;
   display: table;
   clear: both;
 }
+/* End of top bar CSS */
+
+
+/* Start of the navigation  */
+/* start of the navigation menu */
 li {
   color: white;
 }
@@ -29,20 +49,23 @@ li {
     }
     /* logo css */
     .logo {
-    /* additionally, equal width */
+       /* additionally, equal width */
       padding: 1em;
-      margin: 1px;
+      margin: 0px;
       float: left;
+      width: 40%;
+      background-color:rgba(8, 46, 123, 0.775);
     }  
 
     /* start of the navigation menu */
     .navigation {
       flex: 1; /* additionally, equal width */
       padding: 1em;
-      margin: 10px;
+      margin: 0px;
       float: right;
       text-align: center;
       text-indent: 3em;
+      background-color: rgba(8, 46, 123, 0.775);
     }  
 
     /* Navigation for the unordered list-CSS */
@@ -50,24 +73,23 @@ li {
       list-style-type:none;
       margin: 0;
       padding: 0;
-      overflow: hidden;   
+      overflow: hidden;           
     }
 
     /* list item CSS */
     li {
       float: left;
-      
-    }
+      }
     /* CSS for the a tag in the list item */
     li a {
   display: block;
-  color: black;
+  color:white;
   text-align: center;
   padding: 10px;
   text-decoration: none;
 }
 li a:hover {
-  background-color: rgb(104, 141, 114);
+  background-color:rgba(8, 46, 123, 0.775);
   color: white;
 }
 
@@ -81,12 +103,39 @@ li a:hover {
       float: right;
     }  
 
-    /* styling for the breadcrumbs */
+/* End of the navigation CSS */
+
+    /*Our team*/
+    .row {
+      display: flex; /*  */
+    }
+    .team1 {
+      flex: 1; /* additionally, equal width */
+      padding: 1em;
+     margin: 10px;
+      
+    }   
+    .team2 {
+      flex: 1; /* additionally, equal width */
+      padding: 1em;
+     margin: 10px;
+     
+    }   
+    .team3 {
+      flex: 1; /* additionally, equal width */
+      padding: 1em;
+      margin: 10px;
+    } 
+/* End of our team */
+     
+     
+    
+/* styling for the breadcrumbs */
 .breadcrumbnav {
   list-style: none;
   text-align: center;
-  background-image: url(images/pictures/emrich.jpg) ;
-  height: 100vh
+  background-image: url(images/pictures/About\ us.jpg) ;
+  height: 50vh
 }
 .breadcrumbnav li {
   display: inline-block;
@@ -98,10 +147,9 @@ li a:hover {
 .breadcrumbnav li:last-child::after {
   content: " ";
 }
-/* End of breadcrumb*/
 
-    /*rows and columns for Mission, Vision and Core values */
-      .row {
+    /*  */
+    .row {
       display: flex; /* equal height of the children */
     }
     .service1 {
@@ -162,27 +210,34 @@ li a:hover {
           /* End of button CSS */
 
 
+ 
     </style>
-    <title> Services for Green Agro</title>
 </head>
 <body>
-  <!-- code for the top bar -->
+
+  <!-- Start of top bar -->
   <div class="topbar">
     <div class="topbar1">
-      <img src="telephone.png" alt="#" height="20" width="20"> (+46) 771296207 </a>
+      <img src="images/logo/telephone.png" alt="#" height="20" width="20"> (+46) 771296207 </a>&nbsp;&nbsp;&nbsp;
+      <img src="images/socials/email.png" alt="#" width="20" height="20"> contact@emrichpropertyconsults.com</a>&nbsp;&nbsp;&nbsp;
+      <img src="images/logo/address.png" alt="#" width="20" height="20"> P.O.BOX 165, Gulu, Uganda </a>
     </div>
-    <div class="topbar1">
-      <img src="address.png" alt="#" width="20" height="20"> P.O.BOX 165, Malmo, Sweden </a>
+   
+    <div class="topbar2">
+      <img src="images/socials/Facebook fit.jpg" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/socials/linkedIn.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/socials/Instagram.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/socials/youtube.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/socials/twitter.png" alt="facebook" width="35" height="25">
     </div>
-    <div class="topbar1">
-      <img src="email.png" alt="#" width="20" height="20"> contact@greenagribusiness.com</a>
     </div>
-    </div> 
+     <!--End of top bar code  -->
+     
 
   <!-- logo and navigation bar-->
     <div class="row">
       <!-- colum 1 -->
-        <div class="logo"> <img src="Logo1.jpg" alt="Green Agro Logo" width="150" height="60"></div>
+        <div class="logo"> <img src="images/logo/logo.jpg" alt="Green Agro Logo" width="80" height="60"></div>
 <!-- column 2 -->
         <div class="navigation"> 
           <ul> 
@@ -203,35 +258,20 @@ li a:hover {
             <!-- list item5 -->
              <li>
               <a href="contactus.html" style="text-decoration: none;">CONTACT US</a>
-            </li>
-            <li>
-              <a href="products.html" style="text-decoration: none;">PRODUCTS</a>
-            </li>
-            
+            </li>      
           </ul>
-        
           </div>
-        <div>
-          <div class="socialmedia">
-            <img src="Facebook fit.jpg" alt="facebook" width="25" height="25">
-            <img src="linkedIn.png" alt="facebook" width="25" height="25">
-            <img src="Instagram.png" alt="facebook" width="25" height="25">
-            <img src="youtube.png" alt="facebook" width="25" height="25">
-            <img src="twitter.png" alt="facebook" width="25" height="25">
-          </div>
-
         </div>
     </div>
-    <!-- breadcrumbs -->
-    <div id="container">
-      <ol class="breadcrumbnav">            
-        <h1 style="padding-top: 120px;font-size: x-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: white;"> Services</h1>
-        <li ><a href="#" style="color: white;"> Home >> Services </a></li>           
-      </ol>
-    </div>
-    <!-- End of breadcrumbs -->
 
-<!-- <p style="text-align: center"> <img src="image3.jpg" alt="agricultural photo" width="100%" height="250"></p> -->
+         <div id="container">
+          <ol class="breadcrumbnav">            
+            <h1 style="padding-top: 120px;font-size: x-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> Services </h1>
+            <li ><a href="#"> Home >> Services </a></li>           
+          </ol>
+        </div>
+<br>
+  
 <br>
 <br>
 <h1 style= "color:darkolivegreen;text-align:center;border:2px dodgerblue;"> SERVICES </h1>
@@ -266,19 +306,14 @@ li a:hover {
             <br> Commitment <br> Professional, effective and informed by Science</div></div>
       <hr>
     </div>
-    <!-- button --> 
-  <hr>
-</div>
-<!-- button -->
-<div>
-<div class="row">
-    <div class="button1"><button type="button" onclick="alert('Responsibility')">READMORE</button></div>
-    <div class="button2"><button type="button" onclick="alert('Integrity')">READMORE</button></div>
-    <div class="button3"><button type="button" onclick="alert('Leading in agricultural innovation')">READMORE</button></div>
-</div>
-
-
-
+          </div>
+      </div>
+      <div>
+        <div class="row">
+            <div class="button1"><button type="button" onclick="alert('Responsibility')">READMORE</button></div>
+            <div class="button2"><button type="button" onclick="alert('Integrity')">READMORE</button></div>
+            <div class="button3"><button type="button" onclick="alert('Leading in agricultural innovation')">READMORE</button></div>
+        </div>
+  <div>
 </body>
-
 </html>
