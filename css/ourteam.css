@@ -1,0 +1,27 @@
+    /*Our team*/
+    .row {
+        display: flex; /*  */
+      }
+      .team1 {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+       margin: 10px;
+        
+      }   
+      .team2 {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+       margin: 10px;
+       
+      }   
+      .team3 {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+        margin: 10px;
+      } 
+      .team4 {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+        margin: 10px;
+      }
+  /* End of our team */
