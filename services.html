@@ -6,314 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- STYLE -->
-    <style>
-* body{
-  margin: 0;
-}
-/* top bar CSS */
-.topbar {
-  background-color:rgba(8, 46, 123, 0.775) ;
+<!-- banner -->
+<link rel="stylesheet" type="text/css" href="css/ourteam.css">
+<!-- dropdown -->
+<link rel="stylesheet" type="text/css" href="dropdown.css">
 
-}
-.topbar1{
-float: left;
-  width: 65%;
-  padding: 0px;
- text-align: center;
- color: white;
-}
-.topbar2{
-float: right;
-  width: 35%;
-  padding: 0px;
- text-align: center;
- color: white;
-}
+<!-- header -->
+<link rel="stylesheet" type="text/css" href="css/header.css">
 
-.topbar::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* End of top bar CSS */
+  <!-- CSS-font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-/* Start of the navigation  */
-/* start of the navigation menu */
-li {
-  color: white;
-}
-      h2 {text-align: center;}
-.row {
-      display: flex; /* equal height of the children */
-    }
-    /* logo css */
-    .logo {
-       /* additionally, equal width */
-      padding: 1em;
-      margin: 0px;
-      float: left;
-      width: 40%;
-      background-color:rgba(8, 46, 123, 0.775);
-    }  
-
-    /* start of the navigation menu */
-    .navigation {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      margin: 0px;
-      float: right;
-      text-align: center;
-      text-indent: 3em;
-      background-color: rgba(8, 46, 123, 0.775);
-    }  
-
-    /* Navigation for the unordered list-CSS */
-    ul {
-      list-style-type:none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;           
-    }
-
-    /* list item CSS */
-    li {
-      float: left;
-      }
-    /* CSS for the a tag in the list item */
-    li a {
-  display: block;
-  color:white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color:rgba(8, 46, 123, 0.775);
-  color: white;
-}
-
-/* End of navigation CSS */
-
-/* Social media icons CSS */
-    .socialmedia {
-      flex: 1;
-      padding: 1em;
-      margin: 10px;
-      float: right;
-    }  
-
-/* End of the navigation CSS */
-
-    /*Our team*/
-    .row {
-      display: flex; /*  */
-    }
-    .team1 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-     margin: 10px;
-      
-    }   
-    .team2 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-     margin: 10px;
-     
-    }   
-    .team3 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      margin: 10px;
-    } 
-/* End of our team */
-     
-     
-    
-/* styling for the breadcrumbs */
-.breadcrumbnav {
-  list-style: none;
-  text-align: center;
-  background-image: url(images/pictures/About\ us.jpg) ;
-  height: 50vh
-}
-.breadcrumbnav li {
-  display: inline-block;
-  float: none;
-}
-.breadcrumbnav li::after {
-  content: " >> ";
-}
-.breadcrumbnav li:last-child::after {
-  content: " ";
-}
-
-    /*  */
-    .row {
-      display: flex; /* equal height of the children */
-    }
-    .service1 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      padding-top: 35px;
-      margin: 10px;
-      background-color: #beeab0;
-    }   
-    .service2 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      padding-top: 35px;
-      margin: 10px;
-      background-color:beige;
-    }   
-    .service3 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      padding-top: 35px;
-      margin: 10px;
-      background-color: #beeab0;
-    } 
-    
-/* End of the rows and columns for Mission, Vision and Core values */
-
-    /* start of the button CSS */
-    .row {
-      display: flex; /* equal height of the children */
-    }
-    .button1 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      margin: 10px;
-      background-color: beige;
-      text-align: center;
-    }   
-    .button2 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      margin: 10px;
-      background-color:beige;
-      text-align: center;
-    }   
-    .button3 {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      margin: 10px;
-      background-color: beige;
-      text-align: center;
-          } 
-          /* End of button CSS */
-
-
- 
-    </style>
 </head>
-<body>
 
-  <!-- Start of top bar -->
-  <div class="topbar">
-    <div class="topbar1">
-      <img src="images/logo/telephone.png" alt="#" height="20" width="20"> (+46) 771296207 </a>&nbsp;&nbsp;&nbsp;
-      <img src="images/socials/email.png" alt="#" width="20" height="20"> contact@emrichpropertyconsults.com</a>&nbsp;&nbsp;&nbsp;
-      <img src="images/logo/address.png" alt="#" width="20" height="20"> P.O.BOX 165, Gulu, Uganda </a>
+   <!-- topbar -->
+   <div class="topbar"> 
+    <div class="logo">
+        <img src="images/logo/logo.jpg" alt="logo" height="55px" width="50px" style="border-radius: 5px;">
     </div>
-   
-    <div class="topbar2">
-      <img src="images/socials/Facebook fit.jpg" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/socials/linkedIn.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/socials/Instagram.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/socials/youtube.png" alt="facebook" width="35" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/socials/twitter.png" alt="facebook" width="35" height="25">
-    </div>
-    </div>
-     <!--End of top bar code  -->
-     
-
-  <!-- logo and navigation bar-->
-    <div class="row">
-      <!-- colum 1 -->
-        <div class="logo"> <img src="images/logo/logo.jpg" alt="Green Agro Logo" width="80" height="60"></div>
-<!-- column 2 -->
-        <div class="navigation"> 
-          <ul> 
-            <!-- list item 1 -->
-            <li>
-              <a href="home.html" style="text-decoration: none;"> HOME </a>
-            </li> 
-            <!-- list item 2 -->
-            <li>
-              <a href="About.html" style="text-decoration: none;">ABOUT US </a></li> 
-              <!-- list item 3 -->
-             <li>
-              <a href="services.html" style="text-decoration: none;">SERVICES </a></li>
-              <!-- list item 4 -->
-             <li>
-              <a href="blogs.html" style="text-decoration: none;">BLOGS </a>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="index.html"> <i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fa fa-clone"></i> About us</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Core Values</a></li>
+                    <li><a href="ourteam.html">Our Team</a></li>
+                </ul>
+            </div>           
             </li>
-            <!-- list item5 -->
-             <li>
-              <a href="contactus.html" style="text-decoration: none;">CONTACT US</a>
-            </li>      
-          </ul>
-          </div>
-        </div>
-    </div>
+            <!-- Our services -->
+            <li><a href="services.html"><i class="fa fa-home"></i> Services</a>
+                <!-- contact-sub-menu -->
+            <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Consultancy</a></li>
+                       <li class="hover-me"><a href="#">Our Properties</a><i class="fa fa-angle-right"></i> 
+                    <!-- sub-menu-2 -->
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="#">Residential</a></li>
+                            <li><a href="#">Commercial</a></li>
+                            <li><a href="#">Office</a></li>
+                        </ul>
+                    </div> 
+                    </li>
+                    </ul>
+                </div> 
 
-         <div id="container">
-          <ol class="breadcrumbnav">            
-            <h1 style="padding-top: 120px;font-size: x-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> Services </h1>
-            <li ><a href="#"> Home >> Services </a></li>           
-          </ol>
-        </div>
+<!-- contact division -->
+            <li><a href="Contact-us.html"><i class="fa fa-home"></i> Contact</a>
+                <!-- contact-sub-menu -->
+            <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Address</a></li>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">contact-email</a></li>
+                    </ul>
+                </div> 
+            </li>
+             </ul>
+    </div> 
+</div>
+
 <br>
-  
-<br>
-<br>
-<h1 style= "color:darkolivegreen;text-align:center;border:2px dodgerblue;"> SERVICES </h1>
-<br>
-<p style="text-align: center;font-size:large ;"> Green Agribusiness offers various services across the globe ranging from smart agricultural solutions to selling of fertilizers and other agricultural solutions </p>
-<br>
+<!-- End of topbar -->
+
+<!-- management of company -->
+
+<h3 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;font-size: 30px; color: #251f79;"> 
+    OUR TEAM </h3>
     <div class="row">
-      <!-- mission row start-->
-      <div class="service1">
-        <div style="position:relative; top: -40px;">
-          <h2 style="padding-top:5px;"> Service 1<hr></h2>
-        </div>
-        <div style="position: relative; top: -40px;text-align: center">
-          To be the Number one solution for smart and sustainable agriculture in Europe and Africa button </div>
-        </div>
-        <!-- mission row end -->
-
-       <!-- vision row start -->
-      <div class="service2">
-        <div style="position: relative; top: -40px ;">
-          <h2 style="padding-top: 5px;">Service 2<hr></h2>
+        <!-- ourteam1-->
+        <div class="team1">
+          <div style="text-align: center;">
+            <img src="images/directors/Ojokmichaelocan.jpg" alt="director1" height="250px" width="250px" style="border-radius: 30px;">
+            <h2 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> Ojok Michael Ocan</h2>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;color: #251f79;">Co-founder</h4>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large"> Michael is experienced in the provision of consultancy in the fields of real estate, valuation and Geographical Information Systems and Software development. Mr. Ojok brings to the team a blend of experience in consultancy services, criticla thinking and excellent client service skills.</p>
           </div>
-          <div style="position: relative; top: -40px; text-align: center;">
-            To improve rural livelihoods and create value by providing sustainable food systems in Europe and Africa 
-            <br> Working to offer solutions at the intersection of farming and climate </div></div>
-          <!-- vision row end -->
-
-      <!-- core values row -->
-      <div class="service3">
-        <div style="position: relative; top: -40px;">
-          <h2 style="padding-top: 5px;">Service 3<hr></h2></div><div style="position: relative; top: -40px;text-align: center"> Integrity 
-            <br> Commitment <br> Professional, effective and informed by Science</div></div>
-      <hr>
-    </div>
+          </div>
+     
+         <!-- ourteam2 -->
+        <div class="team2">
+          <div style="text-align: center;">
+            <img src="images/directors/Eric.jpeg" alt="director1" height="250px" width="250px" style="border-radius: 30px;">
+            <h2 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> Okwonga Eric</h2>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;color: #251f79;">Co-founder</h4>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large"> An experienced land and valuation surveyor. With a background in both land surveying and valuation surveying, Eric's skillset and passion for surveying couples to his experience has improved our efficiency in service provision.</p>
+            </div>
+          </div>
+  
+        <!-- ourteam3-->
+        <div class="team3">
+          <div style="text-align: center;">
+            <img src="images/directors/NyekoHashim.jpeg" alt="director1" height="250px" width="250px" style="border-radius: 30px;">
+            <h2 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> Nyeko Hashim</h2>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;color: #251f79;">Co-founder</h4>
+            <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large">With years of experience in the provision of consultancy in the fields of real estate, valuation, project management, financial analysis and Research, Mr. Nyeko brings uniques skills to the team that allows him to contribute to the efficient generation of value proposition to our clients.</p>
           </div>
       </div>
-      <div>
-        <div class="row">
-            <div class="button1"><button type="button" onclick="alert('Responsibility')">READMORE</button></div>
-            <div class="button2"><button type="button" onclick="alert('Integrity')">READMORE</button></div>
-            <div class="button3"><button type="button" onclick="alert('Leading in agricultural innovation')">READMORE</button></div>
+      <div class="team4">
+        <div style="text-align: center;">
+          <img src="images/directors/Okello_Efrem.jpeg" alt="director1" height="250px" width="250px" style="border-radius: 30px;">
+          <h2 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> Okello Efrem</h2>
+          <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;color: #251f79;">Data Engineer</h4>
+          <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large"> With a strong background in data analysis, Efrem is responsible for data integrity and cross functional integration across all the company departments which increases efficiency in service delivery. Efrems technical skills in management and data analysis brings innovative solutions to solve clients problems.</p>
         </div>
-  <div>
+    </div>
+  </div>
 </body>
 </html>
