@@ -10,40 +10,7 @@
 * body{
   margin: 0;
 }
-/* top bar CSS */
-.topbar {
-  background-color:rgba(8, 46, 123, 0.775) ;
 
-}
-.topbar1{
-float: left;
-  width: 65%;
-  padding: 0px;
- text-align: center;
- color: white;
-}
-.topbar2{
-float: right;
-  width: 35%;
-  padding: 0px;
- text-align: center;
- color: white;
-}
-
-.topbar::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* End of top bar CSS */
-
-
-/* Start of the navigation  */
-/* start of the navigation menu */
-li {
-  color: white;
-}
-      h2 {text-align: center;}
 .row {
       display: flex; /* equal height of the children */
     }
@@ -62,50 +29,18 @@ li {
     }  
 
     /* Navigation for the unordered list-CSS */
-    ul {
-      list-style-type:none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;           
-    }
-
-    /* list item CSS */
-    li {
-      float: left;
-      }
-    /* CSS for the a tag in the list item */
-    li a {
-  display: block;
-  color:white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color:rgba(8, 46, 123, 0.775);
-  color: white;
-}
+  
 
 /* End of navigation CSS */
  
     
-/* styling for the breadcrumbs */
-.breadcrumbnav {
-  list-style: none;
+/* styling for the bannerabout */
+.banner_about {
   text-align: center;
   background-image: url(images/pictures/About\ us.jpg) ;
   height: 50vh
 }
-.breadcrumbnav li {
-  display: inline-block;
-  float: none;
-}
-.breadcrumbnav li::after {
-  content: " >> ";
-}
-.breadcrumbnav li:last-child::after {
-  content: " ";
-}
+
 
     /*  */
     .row {
@@ -126,6 +61,20 @@ li a:hover {
     } 
  
     </style>
+
+<!-- header -->
+<link rel="stylesheet" type="text/css" href="css/header.css">
+
+<!-- navigation -->
+<link rel="stylesheet" type="text/css" href="css/navigation.css">
+
+<!-- banner -->
+<link rel="stylesheet" type="text/css" href="css/banner.css">
+<!-- dropdown -->
+<link rel="stylesheet" type="text/css" href="dropdown.css">
+  <!-- CSS-font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
@@ -182,11 +131,10 @@ li a:hover {
 </div>
 <!-- End of topbar -->
 
-         <div id="container">
-          <ol class="breadcrumbnav">            
+         <div class="banner_about">            
             <h1 style="padding-top: 120px;font-size: x-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> About</h1>
-            <li ><a href="#"> Home >> About Us </a></li>           
-          </ol>
+            <p><a href="home.html"> Home >> About Us </p>        
+         
         </div>
 <br>
   
