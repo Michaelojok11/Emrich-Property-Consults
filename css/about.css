@@ -1,0 +1,41 @@
+
+    /* start of the navigation menu */
+    .navigation {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+        margin: 0px;
+        float: right;
+        text-align: center;
+        text-indent: 3em;
+        /* background-color: rgba(8, 46, 123, 0.775); */
+      }  
+  
+      /* Navigation for the unordered list-CSS */
+    
+  
+  /* End of navigation CSS */
+   
+      
+  /* styling for the bannerabout */
+  .banner_about {
+    text-align: center;
+    background-image: url(../images/pictures/About\ us.jpg) ;
+    height: 50vh
+  }
+      /*  */
+      .row {
+        display: flex; /* equal height of the children */
+      }
+      .rowmission {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+        border: none;
+        margin: 10px;
+     
+      }   
+      .rowvision {
+        flex: 1; /* additionally, equal width */
+        padding: 1em;
+        border: none;
+        margin: 10px;
+      } 
