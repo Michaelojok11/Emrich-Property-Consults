@@ -3,7 +3,7 @@
 }
 .drinks{
     display: flex;
-    width: 60%;
+    width: 70%;
     padding: 10px;
     background-color: white;
     
@@ -12,8 +12,14 @@
     padding: 15px;
     padding-right: 80px;
     border: 10px;
-       
+    width: 30%;    
+    margin-right: 20px;  
 }
+
+.whiskey_price{
+         width: 70%;
+}
+
 .share_products{
     margin-top: 20px;
 }
@@ -52,4 +58,8 @@ h3{
 .socials{
     display: flex;
     margin-top: 10px;
+}
+
+.delivery_location{
+    width: 30%;
 }
