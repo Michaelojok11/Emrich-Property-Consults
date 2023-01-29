@@ -1,6 +1,7 @@
 .product{
     display: flex;
     background-color: aliceblue;
+    
 }
 .drinks{
     display: flex;
@@ -13,8 +14,7 @@
     padding: 15px;
     padding-right: 80px;
     border: 10px;
-    width: 30%;    
-     
+    width: 30%;        
 }
 
 .whiskey_price{
@@ -65,6 +65,7 @@ h3{
 .delivery_location{
     width: 30%;
     background-color: white;
+    margin-right: 10px;
 }
 .cities{
     margin-top: 10px;
