@@ -75,3 +75,9 @@ h3{
     margin-top: 10px;
     padding: 5px;
 }
+.delivery_options{
+    margin-top: 20px;
+}
+.door_delivery{
+    display: flex;
+}
