@@ -1,3 +1,20 @@
-.products{
+.product{
     display: flex;
+}
+.drinks{
+    display: flex;
+    width: 60%;
+    padding: 10px;
+}
+.whiskey{
+    display: flex;
+    width: 30%;
+    height: ;
+}
+
+
+
+h3{
+    font-size: 15px;
+    margin: 0;
 }
