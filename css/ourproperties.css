@@ -5,13 +5,17 @@
     display: flex;
     width: 60%;
     padding: 10px;
+    background-color: white;
+    
 }
 .whiskey{
-    display: flex;
     padding: 15px;
     padding-right: 80px;
     border: 10px;
        
+}
+.share_products{
+    margin-top: 20px;
 }
 
 
@@ -29,5 +33,20 @@ h3{
     display: flex;
     background-color: rgb(106, 106, 237);
     border-radius: 5px;
-    text-align: center;
+    text-align: center; 
+}
+/* .whiskey_price{
+    border-right: 0.05px solid;
+} */
+.promotions1{
+    display: flex;
+    margin-top: 15px;
+}
+.promotions2{
+    display: flex;
+    margin-top: 15px;
+}
+.socials{
+    display: flex;
+    margin-top: 10px;
 }
