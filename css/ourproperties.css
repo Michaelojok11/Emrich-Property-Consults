@@ -81,3 +81,6 @@ h3{
 .door_delivery{
     display: flex;
 }
+.door_delivery1{
+   border: 2px solid;
+}
